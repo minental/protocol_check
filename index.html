@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detect Custome Protocol</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+    <script src="node_modules/custom-protocol-detection/protocolcheck.js"></script>
+	<script src="index.js"></script>
+</head>
+<body>
+	<input id="protocol" value="" placeholder="custom protocol"/>
+	<button id="launch">Launch</button>
+	<!-- Mozilla Only -->
+	<iframe id="hiddenIframe" src="about:blank" style="display:none"></iframe>
+	<!-- IE Case 1 -->
+	<a id="hiddenLink" style="display:none;" href="#">custom protocol</a>
+</body>
+
+</html>
